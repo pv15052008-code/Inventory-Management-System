@@ -27,10 +27,11 @@ app.get('/', (req, res) => {
 // Centralized error handling middleware (must be registered after all routes)
 app.use(errorHandler);
 
-// Set the port from environment variable or default to 5000
+// Set the port from environment variable or default to 5000, and bind to 0.0.0.0 for cloud hosting
 const PORT = process.env.PORT || 5000;
+const HOST = '0.0.0.0';
 
 // Start the Express server
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+app.listen(PORT, HOST, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
