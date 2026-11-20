@@ -4,6 +4,17 @@ A beginner-friendly RESTful backend API built with **Node.js**, **Express.js**, 
 
 ---
 
+## 🌐 Live Deployment
+
+The application is deployed on **Render** and connected to **MongoDB Atlas**:
+
+- **Live API**: https://inventory-management-system-ldfk.onrender.com
+- **Products API**: https://inventory-management-system-ldfk.onrender.com/api/products
+- **Category Summary API**: https://inventory-management-system-ldfk.onrender.com/api/products/category-summary
+- **GitHub Repository**: https://github.com/pv15052008-code/Inventory-Management-System
+
+---
+
 ## 🚀 Technology Stack
 
 - **Runtime**: Node.js
